@@ -1,0 +1,80 @@
+let resume = {
+  "name": "pradeepkkumar",
+  "email": "pradeepvnb@gmail.com",
+  "phone": "9058234587",
+  "summary": "I am a dedicated and motivated software developer with 5 years of experience in building web applications using JavaScript, React and Node.js.",
+  "education": [
+    {
+      "degree": "software Engineer",
+      "institution": "VIT University",
+      "year": "2023"
+    },
+  ],
+  "skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "HTML",
+    "CSS",
+    "Git"
+  ]
+}
+console.log("Name:", resume.name)
+console.log("Email:", resume.email)
+console.log("Phone:", resume.phone)
+console.log("Summary:", resume.summary)
+
+console.log("\nEducation:")
+resume.education.forEach(edu => {
+  console.log(edu.degree, "-", edu.institution, "-", edu.year)
+})
+console.log("\nSkills:")
+resume.skills.forEach(skill => console.log("-", skill))
+
+
+output:
+
+Name: pradeepkkumar
+Email: pradeepvnb@gmail.com
+Phone: 9058234587
+Summary: I am a dedicated and motivated software developer with 5 years of experience in building web applications using JavaScript, React and Node.js.
+
+Education:
+software Engineer - VIT University - 2023
+
+Skills:
+- JavaScript
+- React
+- Node.js
+- HTML
+- CSS
+- Git
+
+
+window,screen and document:
+
+window:
+
+window object: 
+
+It is the top-level object in the browser's 
+JavaScript hierarchy and represents the browser window. 
+It provides properties and methods related to the browser window
+such as dimensions, location, history, etc.
+It is the global scope of the web page, and
+all global variables and functions are attached to it.
+
+screen:
+
+screen object: It represents the user's screen or display device
+and provides properties related to the screen such as dimensions, 
+resolution, color depth, etc.
+
+document:
+
+document object: 
+
+Represents webpage and provides access to HTML elements of the webpage.
+It provides methods to manipulate the HTML content of the webpage,
+such as creating new elements, modifying existing elements, etc.
+It is the global scope of the HTML page.
